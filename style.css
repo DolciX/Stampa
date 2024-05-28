@@ -139,6 +139,15 @@ header{
     .open {
         display: block;
     }
+    .txt{
+        width: 100%;
+        
+
+    }
+    .ftos{
+        display: block;
+        flex-direction: column;
+    }
 }
 
 .top{
