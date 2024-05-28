@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Stampa Broker</h1>
+            </div>
+           <div class="nav-list ">
+               <ul>
+                   <li class="nav-item"><a href="index.html" class="nav-link">Home<a></li>
+                   <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                   <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                   <li class="nav-item"><a href="about.html" class="nav-link">Quem Somos</a></li>
+               </ul>
+           </div>
+           <div class="login-button">
+            <button><a href="login.html">Area do Cliente</a></button>
+           </div>
+
+           <div class="mobile-menu-icon">
+                <button onclick="menushow()"><img class="icon" src="midia/menu_white_36dp.svg" alt=""></button>
+           </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">Quem Somos</a></li>
+            </ul>
+            <div class="login-button">
+                <button><a href="login.html">Area do Cliente</a></button>
+               </div>
+        </div>
+    </header>
+    <section>
+        <div class="top"><img class="ftos" src="midia/docasresized.jpeg" alt="docas"></div>
+        <div class="txt">
+        <h2>Recebimento e Armazenagem</h2>
+        <br>
+        <p id="recebido">O recebimento dos produtos é feito pelas docas de carga e descarga, após a descarga é feita a conferência dos seguintes itens: 
+            <ul class="descarga">
+            <li>Quantidade</li>
+            <li>Lote</li>
+            <li>Existência de avaria ou não</li>
+            <li>Padronização de pallet</li>
+        </ul>
+        <br>
+        <p>Muitas vezes pode ocorrer do material recebido não ser todo o pallet do mesmo lote, ou se não do mesmo produto, sendo assim necessario fazer a separação do material para armazenagem correta.</p>
+        <br>
+        <p>Quando o material não condiz com o lote do sistema é feito o internamento do mesmo para ser realizado o ajuste de lote, precedimento feito para a correção no sistema do produto em questão.</p>
+        <br>
+        Após os procedimentos realizados é feito a alocação dos produtos em endereços físicos no estoque pelos operadores de empilhadeira.
+    </p>
+        </div>
+    </section>
+    <section>
+            <div class="mid"><img class="ftos" src="midia/armazemresized.jpeg" alt="armazem02"></div>
+            <div class="txt">
+                <h2>Vendas e Faturamento</h2>
+                <br>
+                <p>A empresa conta com diversos vendedores que se locomovem até o estabelecimento dos clientes para realizarem as vendas, que acontecem diariamente.</p>
+                    <br>
+                <p>A venda é feita em um dia e faturada no outro, ou no mesmo dia, dependendo da demanda; 
+                Após faturada a nota, é feito o planejamento e elaborada a melhor estratégia para atender o maximo de clientes por rota de entrega. 
+                </p>
+            </div>
+    </section>
+    <section>
+        <div class="baixo"><img class="ftos" src="midia/cargaresized.jpeg" alt=""></div>
+        <div class="txt" >
+            <h2>Separação e Expedição</h2>
+            <br>
+            <p>São geradas as cargas para separação atraves do sistema WMS, hoje em dias se tem como padrão dois modelos de separação:
+                <br>
+                <br>
+                <ul id="separacao">
+                    <li>Fracionado ( Multi-Pedidos ) :
+                <br>
+                <br>
+                </p>São utiliziadas 12 caixas plásticas em um carrinho onde o separador usa uma paleteira fazendo uma espécie de circúito pelo estoque. <br> Esse modelo de separação mais recente foi muito importante para os comerciantes locais e para a própria empresa, pois tirou a necessidade de realizar vendas somente de caixas fechadas, tornando mais facil para os comerciantes terem uma gama maior de produtos em suas lojas e para a empresa ter uma cartela de clientes maior.
+                    </li>
+                    <br>
+                    <li>
+                        Caixaria:
+                        <br>
+                        <br>
+                        <p>É feito a separção das mercadorias por pallet no mesmo modelo de circúito que no Multi-Pedidos, porem em sua maior parte a separação na caixaria é feita somente com caixas fechadas e as vezes feita por pallets fechados do mesmo produto.</p>
+                    </li>
+                </ul> </p>
+        </div>
+    </section>
+    <div class="espacamento">
+        
+    </div> 
+    <footer>
+        <p class="final">Desenvolvido por Mateus Moreira Dolci &reg</p>
+    </footer>
+    
+
+    <script src="assets/js/menushow.js"></script>
+</body>
+</html>
